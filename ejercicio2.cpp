@@ -8,7 +8,7 @@ int main(){
     cout<<"ingrese los elementos de la matriz"<<endl;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
-            cout<<"elemento ["<<i<<"]["<<j<<"]: ";
+            cout<<"elemento ["<<i+1<<"]["<<j+1<<"]: ";
             cin>>matriz[i][j];
         }
     }
